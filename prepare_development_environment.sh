@@ -1,8 +1,8 @@
 #!/bin/bash
 
 git clone https://github.com/69guitar1015/anyenv ~/.anyenv
-echo 'export PATH="$HOME/.anyenv/bin:$PATH"' >> ~/.bash_profile
-echo 'eval "$(anyenv init -)"' >> ~/.bash_profile
+echo 'export PATH="$HOME/.anyenv/bin:$PATH"' >> ~/.bashrc
+echo 'eval "$(anyenv init -)"' >> ~/.bashrc
 export PATH="$HOME/.anyenv/bin:$PATH"
 eval "$(anyenv init -)"
 
